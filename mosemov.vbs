@@ -7,7 +7,6 @@ intervalSec = 60
 durationSec = 3600
 
 cnt = 0
-
 Set objShell = WScript.CreateObject("WScript.Shell")    
 
 Do While True
