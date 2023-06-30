@@ -6,13 +6,7 @@ Local $Pos=WinGetPos($h)
 $x=90
 $y=190
 MouseClick("left", $pos[0] + $x, $pos[1] + $y)
-Send("Websphere admin NJ")
-Send("{ENTER}")
-Send("WebSphere admin NV")
-Send("{ENTER}")
-Send("NJkids batch run")
-Send("{ENTER}")
-Send("AWS")
+Send("sometest")
 Send("{ENTER}")
 
 $x=99
