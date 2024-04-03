@@ -13,6 +13,6 @@ FileClose($hFileOpen)                        ; close file
 
 ;MsgBox($MB_SYSTEMMODAL, "", "First line of the file:" & @CRLF & "aaa" & $sFileRead & "aaa")
 
-WinWaitActive("Cisco AnyConnect | njvpn.protechsolutions.com")
+WinWaitActive("Cisco AnyConnect | abc.com")    ; abc.com => other 
 Send($sFileRead)
 Send("{TAB}")
